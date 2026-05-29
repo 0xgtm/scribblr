@@ -1,4 +1,4 @@
-import { LoginLink, RegisterLink } from '@kinde-oss/kinde-auth-nextjs/server';
+import { LoginLink, RegisterLink } from '@kinde-oss/kinde-auth-nextjs';
 import Image from 'next/image';
 import React from 'react';
 
