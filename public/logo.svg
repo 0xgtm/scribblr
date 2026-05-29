@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Dark Canvas Base with internal gradient -->
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1E1E2E" />
+    <stop offset="100%" stop-color="#11111B" />
+  </linearGradient>
+  <rect x="10" y="10" width="80" height="80" rx="14" fill="url(#bgGrad)" stroke="#45475A" stroke-width="1.5"/>
+
+  <!-- Simplified Diagram dissolving -->
+  <path d="M30 30H50V40H30V30Z" fill="none" stroke="#585B70" stroke-width="1.5"/>
+  <path d="M35 45L45 55M35 55L45 45" stroke="#F38BA8" stroke-width="2"/>
+
+  <!-- Large angled eraser block -->
+  <path d="M40 70 L70 40 L60 30 L30 60 Z" fill="#F5E0DC"/>
+  <path d="M60 30 L70 40 L75 35 L65 25 Z" fill="#EE99A0"/>
+  
+  <!-- "Dissolving" pixels and arc -->
+  <path d="M60 70 Q 75 60 85 45" stroke="#A6ADC8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <rect x="65" y="65" width="4" height="4" rx="1" fill="#89B4FA"/>
+  <rect x="75" y="55" width="3" height="3" rx="0.5" fill="#89DCEB"/>
+  <rect x="80" y="70" width="2" height="2" fill="#F43F5E"/>
+</svg>
