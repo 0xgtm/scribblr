@@ -10,10 +10,6 @@ export default function Home() {
 
   const {user} = useKindeBrowserClient();
 
-
-  useEffect(() => {
-    console.log(" ---" , user);
-  }, [user])
   return (
     <div className="flex flex-col flex-1">
       <Header/>
